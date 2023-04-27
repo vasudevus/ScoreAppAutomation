@@ -2,7 +2,9 @@
 
 Framework for Mobile test automation Native app on Android devices and emulator
 
-<img src = "https://user-images.githubusercontent.com/48508827/136083498-e707b438-0ade-47fc-bb2b-fce34f8d04e3.png" width="500" height="300">
+<img src = "https://github.com/vasudevus/desktop-tutorial/blob/main/Architecture.png" width="500" height="300">
+
+                           Appium Architecture 
 
 ## :rocket: Quick Start - Appium set up on Windows (Android):
 
@@ -98,19 +100,19 @@ Install <b> APK info </b> app to retrieve appPackage and appActivity for the app
 1) Start the Appium Server and connect with Real device/Emulator.
 2) Open Appium Inspector app and provide the appium server details and Desired Capabilities.
 
-<img width="700" alt="Appium Inspector" src="https://user-images.githubusercontent.com/48508827/136668610-7507a27d-1304-490a-b954-687d3bf6caa2.png">
+<img width="700" alt="Appium Inspector" src="https://github.com/vasudevus/desktop-tutorial/blob/main/Appium%20Inspector.png">
 
 3) Click on Start session which will start the appium inspector with layout shown below.
 
 <img width="700" alt="Appium " src="https://user-images.githubusercontent.com/48508827/136668632-343aab0d-9eef-4a2d-beee-fa35825f361a.png">
 
-## :pushpin: Inspecting Element for mobile web browser
+## :pushpin: Inspecting Element for mobile app
 
 ```
 Type url `chrome://inspect/#devices` in the desktop chrome browser and start inspecting element
 ```
 
-<img width="800" alt="Capture" src="https://user-images.githubusercontent.com/48508827/146682499-00cb158a-5f9b-4daf-87ba-ca197b2804de.PNG">
+<img width="800" alt="Capture" src="https://github.com/vasudevus/desktop-tutorial/blob/main/AppiumInspectorSelectedElement.png">
 
 ## :pushpin: Launching Android Emulator Automatically
 
