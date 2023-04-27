@@ -150,7 +150,7 @@ capability.setCapability(AndroidMobileCapabilityType.AVD_LAUNCH_TIMEOUT, "180000
 Use `AppiumServiceBuilder` and `AppiumDriverLocalService` to start the server programmatically Set environment
 variable `APPIUM_HOME = <path to npm folder>\node_modules\appium\build\lib` where `main.js` file is present
 
-## :pushpin: Running tests from IDE
+## :pushpin: Execution:  Running tests from IDE
 
 Select the ScoreApp.java and run the code >  /main/src/test/java/com/score/ScoreApp.java
 
@@ -160,7 +160,7 @@ Select the ScoreApp.java and run the code >  /main/src/test/java/com/score/Score
 
 :point_right: Create or Select the required testng xml > //main/testng.xml -> Right click and select Run
 
-## :pushpin: Report (Extent reports)
+## :pushpin: Results Report (Extent reports)
 
 <img width="700" alt="Extent Report " src="https://github.com/vasudevus/desktop-tutorial/blob/main/Screen%20Shot%202023-04-27%20at%2010.55.51%20AM.png">
 
