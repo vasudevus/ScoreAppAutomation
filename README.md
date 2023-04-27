@@ -46,7 +46,7 @@ Framework for Mobile test automation Native app on Android devices and emulator
             - %ANDROID_HOME%\tools\bin
             - %ANDROID_HOME%\platform-tools
             - 
-   ## :pushpin: Appium server installation to verify the installation
+## :pushpin: Appium server installation to verify the installation
    
 1) Install Appium Server using npm (CLI) command `npm install -g appium`. Appium server version 1.22.3
 
