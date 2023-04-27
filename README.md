@@ -25,19 +25,8 @@ Command to check the installed appium version: `appium --version`
     - %ANDROID_HOME%\platform-tools
 ```
 
-6) Install [Appium desktop](https://github.com/appium/appium-desktop/releases/)
-7) Install [Appium Inspector](https://github.com/appium/appium-inspector/releases)
+6) Install [Appium Inspector-Appium-Inspector-windows-2023.4.2.exe](https://github.com/appium/appium-inspector/releases)
 
-## :rocket: Quick Start - Appium set up on MAC (Android):
-
-1) Install Homebrew
-2) Install [NodeJS](https://nodejs.org/en/download/)
-3) Install [Java JDK8](https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html)
-   and [IntelliJ IDEA](https://www.jetbrains.com/idea/download/)
-4) Install Appium server using npm (CLI) or Appium desktop client
-5) Install [Android studio](https://developer.android.com/studio)
-6) Install [Appium Inspector](https://github.com/appium/appium-inspector/releases)
-7) Set JAVA_HOME and ANDROID_HOME environment variables
 
 ## :pushpin: Appium Doctor to verify the installations
 
@@ -46,7 +35,6 @@ Command to check the installed appium version: `appium --version`
 
 ```
 To check Android set up `appium-doctor --android`
-To check ios set up `appium-doctor --ios`
 ```
 
 ## :pushpin: Creating Android Virtual Device (Emulator) from Android Studio:
