@@ -127,14 +127,6 @@ Command to stop/kill AVD: `adb -e emu kill`
 
 ## :pushpin: Inspecting Elements
 
-### uiautomatorviewer
-
-1) Go to the path - `<path to sdk folder>\tools\bin\`
-2) click on `uiautomatorviewer`
-3) On the UI Automator Viewer, click on Device Screenshot (uiautomator dump). Ui automator will capture the screenshot
-   of current open screen in the device.
-
-<img width="700" height="450" alt="UiAutomatorViewer" src="https://user-images.githubusercontent.com/48508827/136441564-56869f6b-d220-4114-b00b-1312957f3d5b.png">
 
 ### Appium Inspector : Inspecting the element on real device
 
@@ -167,11 +159,7 @@ variable `APPIUM_HOME = <path to npm folder>\node_modules\appium\build\lib` wher
 
 :point_right: Create or Select the required testng xml -> Right click and select Run
 
-## :pushpin: Custom Configurations in config.properties
-
-<img width="550" alt="Capture" src="https://user-images.githubusercontent.com/48508827/150834643-8c995b84-ffb7-4f0e-9ccd-4d1019440f2a.PNG">
-
 ## :pushpin: Report (Extent reports)
 
-<img width="700" alt="Appium " src="https://github.com/vasudevus/desktop-tutorial/blob/main/Screen%20Shot%202023-04-27%20at%2010.55.51%20AM.png">
+<img width="700" alt="Extent Report " src="https://github.com/vasudevus/desktop-tutorial/blob/main/Screen%20Shot%202023-04-27%20at%2010.55.51%20AM.png">
 
