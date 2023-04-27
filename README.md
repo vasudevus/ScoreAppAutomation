@@ -38,7 +38,7 @@ Command to check the installed appium version: `appium --version`
 3) To view the list of available options `appium-doctor --help`
 
 ```
-To check Android set up `appium-doctor --android`
+
 
 ## :pushpin: Appium inspector installation & appium desired capabilities
 
@@ -46,7 +46,8 @@ To check Android set up `appium-doctor --android`
  
  download from(https://github.com/appium/appium-inspector/releases)
 ```
-      <img src = "https://github.com/vasudevus/desktop-tutorial/blob/main/Architecture.png](https://github.com/vasudevus/desktop-tutorial/blob/main/Appium%20Inspector.png)" width="500" height="300">
+
+<img src = "https://github.com/vasudevus/desktop-tutorial/blob/main/Appium%20Inspector.png" width="500" height="300">
       
       
          
