@@ -23,6 +23,7 @@ Framework for Mobile test automation Native app on Android devices and emulator
  ##  Device OS Scope Android 11& Above
  ##  Programming language: Java 11
  ##  IDE IntelliJ IDE 
+
  
                        
                        
@@ -135,24 +136,13 @@ Command to stop/kill AVD: `adb -e emu kill`
 
 <img width="700" height="450" alt="UiAutomatorViewer" src="https://user-images.githubusercontent.com/48508827/136441564-56869f6b-d220-4114-b00b-1312957f3d5b.png">
 
-### Appium Inspector
+### Appium Inspector : Inspecting the element on real device
 
 1) Start the Appium Server and connect with Real device/Emulator.
-2) Open Appium Inspector app and provide the appium server details and Desired Capabilities.
-
-<img width="700" alt="Appium Inspector" src="https://user-images.githubusercontent.com/48508827/136668610-7507a27d-1304-490a-b954-687d3bf6caa2.png">
-
+2) Open Appium Inspector app and provide the appium server details and Desired Capabilities
 3) Click on Start session which will start the appium inspector with layout shown below.
 
-<img width="700" alt="Appium " src="https://user-images.githubusercontent.com/48508827/136668632-343aab0d-9eef-4a2d-beee-fa35825f361a.png">
-
-## :pushpin: Inspecting Element for mobile web browser
-
-```
-Type url `chrome://inspect/#devices` in the desktop chrome browser and start inspecting element
-```
-
-<img width="800" alt="Capture" src="https://user-images.githubusercontent.com/48508827/146682499-00cb158a-5f9b-4daf-87ba-ca197b2804de.PNG">
+<img width="700" alt="Appium " src="https://github.com/vasudevus/desktop-tutorial/blob/main/AppiumInspectorSelectedElement.png">
 
 ## :pushpin: Launching Android Emulator Automatically
 
@@ -163,27 +153,13 @@ capability.setCapability(AndroidMobileCapabilityType.AVD, "Pixel_3a");
 capability.setCapability(AndroidMobileCapabilityType.AVD_LAUNCH_TIMEOUT, "180000");
 ```
 
-## :pushpin: Auto Discovery of compatible ChromeDriver
-
-Start appium server using command `appium --allow-insecure chromedriver_autodownload`
-
-## :pushpin: Auto download of compatible ChromeDriver programmatically
-
-Add below line in the `AppiumServiceBuilder`
-
-```
-AppiumServiceBuilder builder = new AppiumServiceBuilder();
-builder.withArgument(GeneralServerFlag.ALLOW_INSECURE, "chromedriver_autodownload");
-```
-
 ## :pushpin: Start Appium server programmatically
 
 Use `AppiumServiceBuilder` and `AppiumDriverLocalService` to start the server programmatically Set environment
 variable `APPIUM_HOME = <path to npm folder>\node_modules\appium\build\lib` where `main.js` file is present
 
 
-
-## :pushpin: Running tests through Maven
+## :pushpin: Running the test 
 
 :point_right: Run test using command `mvn test -Dsurefire.suiteXmlFiles=<provide the testng xml to execute>`
 
@@ -197,6 +173,5 @@ variable `APPIUM_HOME = <path to npm folder>\node_modules\appium\build\lib` wher
 
 ## :pushpin: Report (Extent reports)
 
-![Web capture_24-1-2022_224531_](https://user-images.githubusercontent.com/48508827/150834585-bf17de21-9e56-494c-b0f6-9ba8451638e6.jpeg)
+<img width="700" alt="Appium " src="https://github.com/vasudevus/desktop-tutorial/blob/main/Screen%20Shot%202023-04-27%20at%2010.55.51%20AM.png">
 
-![Web capture_24-1-2022_224634_](https://user-images.githubusercontent.com/48508827/150834616-3c15ee3a-67cd-4e90-90c7-1f664848fd82.jpeg)
