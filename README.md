@@ -2,8 +2,8 @@
 
 Framework for Mobile test automation Native app on Android devices and emulator
 
-<img src = "https://user-images.githubusercontent.com/48508827/136083498-e707b438-0ade-47fc-bb2b-fce34f8d04e3.png" width="500" height="300">
-
+<img src = "https://github.com/vasudevus/desktop-tutorial/blob/main/Architecture.png" width="500" height="300">
+                       Appium Architecture 
 ## :rocket: Quick Start - Appium set up on Windows (Android):
 
 1) Install [Java JDK11](https://www.oracle.com/ca-en/java/technologies/javase/jdk11-archive-downloads.html)
