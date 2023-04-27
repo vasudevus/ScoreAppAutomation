@@ -3,40 +3,53 @@
 Framework for Mobile test automation Native app on Android devices and emulator
 
 <img src = "https://github.com/vasudevus/desktop-tutorial/blob/main/Architecture.png" width="500" height="300">
+                       
                        Appium Architecture 
+                       
+                       
 ## :rocket: Quick Start - Appium set up on Windows (Android):
 
 1) Install [Java JDK11](https://www.oracle.com/ca-en/java/technologies/javase/jdk11-archive-downloads.html)
    and [IntelliJ IDEA](https://www.jetbrains.com/idea/download/#section=windows)
 2) Install [NodeJS](https://nodejs.org/en/download/)
 3) Install [Android studio](https://developer.android.com/studio)
-4) Install Appium Server using npm (CLI) command `npm install -g appium`. Appium server version 1.22.3
+
+      How to create or modify environment variables on Windows 10: 
+      
+      https://docs.oracle.com/en/database/oracle/machine-learning/oml4r/1.5.1/oread/creating-and-modifying-environment-variables-on-windows.html#GUID-DD6F9982-60D5-48F6-8270-A27EC53807D0
+      
+       Add below Android SDK path in the environment variable
+
+        ```
+            - ANDROID_HOME = <path to Sdk folder>
+            - %ANDROID_HOME%\tools
+            - %ANDROID_HOME%\tools\bin
+            - %ANDROID_HOME%\platform-tools
+            - 
+   ## :pushpin: Appium server installation to verify the installation
+   
+1) Install Appium Server using npm (CLI) command `npm install -g appium`. Appium server version 1.22.3
 
 ```
 Command to check the installed appium version: `appium --version`
-```
-
-5) Add below Android SDK path in the environment variable
 
 ```
-    - ANDROID_HOME = <path to Sdk folder>
-    - %ANDROID_HOME%\tools
-    - %ANDROID_HOME%\tools\bin
-    - %ANDROID_HOME%\platform-tools
-```
-
-6) Install [Appium Inspector-Appium-Inspector-windows-2023.4.2.exe](https://github.com/appium/appium-inspector/releases)
-
-
-## :pushpin: Appium Doctor to verify the installations
-
-1) Install appium-doctor using command `npm install -g appium-doctor`
-2) To view the list of available options `appium-doctor --help`
+2) Install appium-doctor using command `npm install -g appium-doctor`
+3) To view the list of available options `appium-doctor --help`
 
 ```
 To check Android set up `appium-doctor --android`
-```
 
+## :pushpin: Appium inspector installation & appium desired capabilities
+
+ Install [Appium Inspector-Appium-Inspector-windows-2023.4.2.exe] 
+ 
+ download from(https://github.com/appium/appium-inspector/releases)
+```
+      <img src = "https://github.com/vasudevus/desktop-tutorial/blob/main/Architecture.png](https://github.com/vasudevus/desktop-tutorial/blob/main/Appium%20Inspector.png)" width="500" height="300">
+      
+      
+         
 ## :pushpin: Creating Android Virtual Device (Emulator) from Android Studio:
 
 
