@@ -165,7 +165,7 @@ Select the ScoreApp.java and run the code >  /main/src/test/java/com/score/Score
 <img width="700" alt="Extent Report " src="https://github.com/vasudevus/desktop-tutorial/blob/main/Screen%20Shot%202023-04-27%20at%2010.55.51%20AM.png">
 
 
-## : Pre-requisite to execute the script: 
+## :pushpin: Pre-requisite to execute the script: 
 
 1. Appium server should be up and running
 2. Device should be connected and active
