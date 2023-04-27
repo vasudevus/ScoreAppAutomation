@@ -6,6 +6,25 @@ Framework for Mobile test automation Native app on Android devices and emulator
                        
                        Appium Architecture 
                        
+ ## :pushpin: Test Scenario Scope for the demo
+
+* Launch the score app and Verify the home screen (Welcome text)
+* Click on "Get Started" > Navigates Legues screen > Click on Continue
+* close the pop-up and display the Favorite Teams screen
+* Select your favourite team (Toronto Maples Leafs) and verify the selected team(TOR)
+* Click on the Player stats screen and verify the screen
+* Click on the back navigation and verify the screen.
+
+ ## Executed the  Scneario on real device and captured the Video: 
+  
+  https://github.com/vasudevus/ScoreAppAutomation/blob/main/ExtentReports_Score/recorded_video_score_2023-04-26-18-15-26.mp4
+  
+
+ ##  Device OS Scope Android 11& Above
+ ##  Programming language: Java 11
+ ##  IDE IntelliJ IDE 
+ 
+                       
                        
 ## :rocket: Quick Start - Appium set up on Windows (Android):
 
@@ -39,7 +58,6 @@ Command to check the installed appium version: `appium --version`
 
 ```
 
-
 ## :pushpin: Appium inspector installation & appium desired capabilities
 
  Install [Appium Inspector-Appium-Inspector-windows-2023.4.2.exe] 
@@ -49,9 +67,6 @@ Command to check the installed appium version: `appium --version`
 
 <img src = "https://github.com/vasudevus/desktop-tutorial/blob/main/Appium%20Inspector.png" width="500" height="300">
       
-      
-         
-## :pushpin: Creating Android Virtual Device (Emulator) from Android Studio:
 
 
 ## :pushpin: Android Real Device Set up:
@@ -59,16 +74,39 @@ Command to check the installed appium version: `appium --version`
 1) Open Android Studio, Navigate to Device Manager
       
 2) Select option to Pair Newdevice Over Wifi and Select Pair Using QR Code
-    <img src = "https://github.com/vasudevus/desktop-tutorial/blob/main/PairNewDevice.png" width="200" height="200">  
+
+    <img src = "https://github.com/vasudevus/desktop-tutorial/blob/main/PairNewDevice.png" width="200" height="200">
+    
+    
 3) Open your Camera and Scan QR code
+
+
     <img src = "https://github.com/vasudevus/desktop-tutorial/blob/main/PairedDevice.png" width="200" height="200">
+    
+    
 4) Click on Run Device - it will take take 2min to display the device
+
+
     <img src = "https://github.com/vasudevus/desktop-tutorial/blob/main/ConnectedDevice.png" width="200" height="200">
      
 
 ## :pushpin: Installing App on device
 
-1) Drag app the app from 
+    1) Search your app and download from : https://m.apkpure.com/search?q=
+    2) Save the app in Project folder//src//test//java//resources//app 
+    3) Drage and drop the .apk file to the device.
+    
+
+##  :pushpin: Virtual device connection steps
+
+1) Open Android Studio and configuration virtual device/Emulator: Open Studio 64 or Android Studio from C:\Program Files\Android\Android Studio\bin. 
+2) Select ” Import Android Code Sample” ? Then choose any sample.  and click on next next until you reach on home window.
+From Tools select Device Manager’ or Search ‘AVD Manager’>+Create Virtual Device>Select the device (ex: pixel 3)>
+
+3)Select the Android version (Make sure to Download the release first; ex: Pie) and complete the download version>
+
+4)click on Advance setting>Give AVD name (ex:Demo).>finish
+5)click on launch to open the virtual mobile device
 
 ## :pushpin: Start Android Emulator from Command line
 
@@ -84,18 +122,7 @@ Command to stop/kill AVD: `adb -e emu kill`
 1) Copy the .apk file and paste it in the path - `<path to sdk platform-tools>`
 2) Open the cmd terminal from the directory where APK file is placed and enter command `adb install <apk filename>`
 
-## :pushpin: Android - Finding appPackage and appActivity:
 
-If the app is already installed on your device then we can make use of appPackage and appActivity to launch the app
-
-<b> Option 1 : </b>
-1) Open the app on the device, for which appPackage and appActivity is required.
-2) Open powershell and enter command `adb shell dumpsys window | grep -E 'mCurrentFocus|mFocusedApp'`
-NOTE: This command may not work for newer Android OS (10 or 11). In that case, use command:
-   `adb shell "dumpsys activity activities | grep mResumedActivity"`
-
-<b> Option 2 : </b>
-Install <b> APK info </b> app to retrieve appPackage and appActivity for the app installed in your device
 
 ## :pushpin: Inspecting Elements
 
@@ -154,29 +181,7 @@ builder.withArgument(GeneralServerFlag.ALLOW_INSECURE, "chromedriver_autodownloa
 Use `AppiumServiceBuilder` and `AppiumDriverLocalService` to start the server programmatically Set environment
 variable `APPIUM_HOME = <path to npm folder>\node_modules\appium\build\lib` where `main.js` file is present
 
-## :pushpin: Key Features
 
-:point_right: Supports Android and Emulators.
-
-:point_right: Supports capturing appium server logs on run-time.
-
-:point_right: Page object model design.
-
-
-:point_right: Ability to capture screen(video) recording of tests on Android and iOS. Configurable
-through `config.properties`
-
-:point_right: Supports capturing screenshots for passed/failed/skipped steps which is configurable
-through `config.properties`
-
-:point_right: Ability to retry failed tests which is configurable through `config.properties`
-
-:point_right: Customised exception handling to provide the exceptions in a meaningful way.
-
-:point_right: Custom framework annotation to provide author name and category for each test.
-
-:point_right: Supports utilities to read test data from excel workbook and provides data to each test based on the test
-name.
 
 ## :pushpin: Running tests through Maven
 
