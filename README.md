@@ -1,4 +1,4 @@
-# Appium Mobile Automation Framework - The Score Andorid App
+# Appium Mobile Automation Framework - Andorid App
 
 Framework for Mobile test automation Native app on Android devices and emulator
 
